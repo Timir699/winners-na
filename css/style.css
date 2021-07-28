@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+	--primary-color: #3867d6;
+	--secondary-color: #666666;
+	--info-color: #80c6271a;
+	--white-color: #fff;
+    --text-color: #c09f28;
+
+}
+
+/* text color #fed330 */
+
+/* primary color #3867d6 */
+
+
+
+/*Navbar css Starts */
+
+.navbar-nav .nav-item .nav-link {
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color:  var(--text-color);
+}
+.navbar-nav .nav-item .nav-link:focus {
+    color:  var(--text-color);
+}
+.carousel-item img {
+    height: 80vh;
+    width: 100%;
+    margin-left: 25%;
+}
+.carousel-caption {
+    position: absolute;
+    top: 30%;
+    left: -20%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 10px;
+    background-color:  var(--secondary-color); 
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+.carousel-control-prev .carousel-control-prev-icon {
+    
+}
+.navbar-toggler {
+    background-color: var(--secondary-color);
+}
+.navbar-toggler-icon {
+    width: 3rem;
+    height: 1.5rem;
+    color: #fff;
+    border: none;
+}
+
+.overlay {
+    background: #000;
+}
+
+.section-header {
+    color: var(--text-color);
+    padding: 20px 0px;
+}
+
+/*------------------------------------------------------------------------*/
+/*footer CSS Starts*/
+/*------------------------------------------------------------------------*/
+
+.footer	{
+	padding: 50px 0px 50px 0px;
+	background :rgba(28, 114, 160, 1);
+	color: #fff;
+}
+.footer_logo h4{
+	
+	padding-bottom: 15px;
+}
+.footer_links {
+	padding-top: 0px;
+	
+}
+.footer_links h4 {
+	padding-bottom: 15px;
+}
+.footer_links ul {
+	padding-left: 0;
+}
+.footer_links ul li {
+	margin-bottom: 10px;
+    list-style: none;
+}
+.footer_links ul li a{
+    text-decoration: none;
+	color: var(--text-color);;
+}
+.footer_contact {
+	padding-top: 0px;
+}
+.footer_contact h4{
+	padding-bottom: 15px;
+}
+/*------------------------------------------------------------------------*/
+/*footer CSS Ends*/
+/*------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------*/
+/*footer_end CSS Starts*/
+/*------------------------------------------------------------------------*/
+.footer_end {
+	margin-top: 30px;
+	padding: 15px 0px;
+	/*background: #218F98;*/
+	color: var(--text-color);
+	font-size: 18px;
+	font-weight: 600;
+}
+.footer h4{
+	font-size: 26px;
+	font-weight: 700;
+}
+.footer_links a {
+	-webkit-transition: all linear .1s;
+	-o-transition: all linear .1s;
+	transition: all linear .1s;
+	font-weight: 600;
+	position: relative;
+}
+.footer_links a:after {
+	content: '';
+	position: absolute;
+	bottom: -8%;
+	left: 1px;
+	height: 2px;
+	width: 0%;
+	background: rgba(28, 114, 160, 1);
+	opacity: 0;
+	-webkit-transition: all linear .3s;
+	-o-transition: all linear .3s;
+	transition: all linear .3s;
+}
+.footer_links a:hover{
+	margin-left: 10px;
+}
+.footer_links a:hover::after {
+	opacity: 1;
+	width: 33px;
+	/*left: 1px;*/
+}
+.footer_contact p{
+	font-weight: 600;
+}
+.footer_contact a{
+	color:  var(--text-color);
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.footer_end span {
+	color: rgb(218, 120, 120);
+}
+
+/*------------------------------------------------------------------------*/
+/*footer_end CSS Ends*/
+/*------------------------------------------------------------------------*/
+.footer h4,p {
+    color:  var(--text-color);
+}
+.footer {
+    padding: 0;
+}
+.golden {
+    color:  var(--text-color);
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        position: absolute;
+        top: 40%;
+        left: 10%;
+    }
+    .carousel-item img {
+        height: auto;
+        width: 100%;
+    }
+
+
+}
