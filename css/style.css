@@ -17,6 +17,56 @@ p,h4 {
     --text-color: #c09f28;
 }
 
+.top_header {
+	background: var(--primary-color);
+	height: auto;
+}
+
+.top_header .social_logo {
+	margin-top: 15px;
+}
+.top_header .social_logo ul {
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.top_header .social_logo ul li a{
+	color: #fff;
+	margin-left: 15px;
+	font-size: 18px;
+}
+.top_header .top_header_left {
+	margin-top: 15px;
+}
+.top_header .top_header_left .address {
+	margin-right: 20px;
+}
+.top_header .top_header_left .address a {
+	color: #fff;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+.top_header .top_header_left .phone a {
+	color: #fff;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+.top_header .top_header_left .phone {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.top_header .top_header_left .email {
+	margin-left: 20px;
+}
+.top_header .top_header_left .email a,i {
+	color: #fff;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
 /*Navbar css Starts */
 
 .navbar-nav .nav-item .nav-link {
@@ -29,6 +79,7 @@ p,h4 {
 .navbar-nav .nav-item .nav-link:focus {
     color:  var(--text-color);
 }
+
 .carousel-item img {
     height: 80vh;
     width: 100%;
@@ -180,6 +231,12 @@ p,h4 {
 .bg {
 	background :var(--primary-color);
 }
+hr {
+	margin-top: 0;
+}
+.p-10 {
+	padding: 0 18rem;
+}
 
 /* // Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) { 
@@ -192,6 +249,11 @@ p,h4 {
         height: auto;
         width: 100%;
     }
-
+	.small-d  {
+		font-size: 14px;
+	}
+	.p-10 {
+		padding: 0 3rem;
+	}
 
 }
