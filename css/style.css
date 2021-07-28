@@ -3,27 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 p,h4 {
 	margin: 0;
 }
+
 .main {
 	background: var(--primary-color);
 }
-
 :root {
 	--primary-color: rgba(28, 114, 160, 1);;
 	--secondary-color: #666666;
-	--info-color: #80c6271a;
-	--white-color: #fff;
     --text-color: #c09f28;
-
 }
-
-/* text color #fed330 */
-
-/* primary color #3867d6 */
-
-
 
 /*Navbar css Starts */
 
@@ -56,11 +48,10 @@ p,h4 {
     top: 30%;
     left: 50%;
 }
-.carousel-control-prev .carousel-control-prev-icon {
-    
-}
+
 .navbar-toggler {
     background-color: var(--primary-color);
+	color:  var(--text-color);
 }
 .navbar-toggler-icon {
     width: 5rem;
