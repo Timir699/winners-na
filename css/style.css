@@ -190,7 +190,7 @@
         left: 10%;
     }
     .carousel-item img {
-        height: 50vh;
+        height: auto;
         width: 100%;
     }
 
