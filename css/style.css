@@ -236,6 +236,7 @@ hr {
 }
 .p-10 {
 	padding: 0 18rem;
+	text-align: justify;
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -253,7 +254,13 @@ hr {
 		font-size: 14px;
 	}
 	.p-10 {
-		padding: 0 3rem;
+		padding: 0 10rem;
 	}
 
 }
+
+@media screen and (max-width: 992px) {
+	.p-10 {
+		padding: 0 3rem;
+	}
+  }
